@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alert</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="alert" id="alert">
+        <div class="header-text">
+          <i class="fas fa-bell"></i>
+          <span class="bell"
+            ><strong>Pink!</strong
+            ><em> This is a pink alert - check it out </em></span
+          >
+        </div>
+        <div class="cancel-button" id="cancel-button">×</div>
+      </div>
+      <button type="button" class="hidden-revert" id="revert-button">
+        undo changes
+      </button>
+      <input type="color" class="input-button" id="input-button" />
+    </div>
+
+    <script src="alert.js"></script>
+  </body>
+</html>
